@@ -1,0 +1,17 @@
+/* Sistema Retiro 2027 - folha de estilos auxiliar para ajustes visuais futuros */
+.rt-age-card-value{font-size:1.65rem;line-height:1.15;}
+@media (max-width:640px){.rt-age-card-value{font-size:1.35rem;}}
+
+
+.rt-info-muted-card{background-color:#f0f0f0;}
+.card-parcelamento-home{overflow:hidden;}
+.rt-progress-wrap{max-width:100%;}
+.rt-progress-track{position:relative;width:100%;height:10px;border-radius:999px;background:rgba(15,118,110,.12);overflow:hidden;}
+.rt-progress-fill{height:100%;border-radius:999px;background:linear-gradient(90deg,#14b8a6,#0f766e);max-width:100%;transition:width .25s ease;}
+.rt-progress-meta{display:flex;justify-content:space-between;gap:8px;margin-top:8px;font-size:12px;color:#64748b;}
+.parcelamento-status{margin-top:12px;padding:10px 12px;border-radius:12px;font-size:14px;line-height:1.5;border:1px solid transparent;}
+.parcelamento-status.status-ativo{background:rgba(15,118,110,.10);color:#0f766e;border-color:rgba(15,118,110,.18);}
+.parcelamento-status.status-previo{background:rgba(3,105,161,.10);color:#0369a1;border-color:rgba(3,105,161,.18);}
+.parcelamento-status.status-encerrado{background:rgba(185,28,28,.10);color:#b91c1c;border-color:rgba(185,28,28,.18);}
+.rt-checkin-form{display:inline-block;}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;}

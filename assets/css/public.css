@@ -1,0 +1,47 @@
+/* Telas públicas */
+.rt-hero{ background: linear-gradient(135deg, rgba(11,59,57,.96), rgba(15,118,110,.88)); color:#fff; position:relative; overflow:hidden; }
+.rt-hero::before{ content:''; position:absolute; inset:0; background: radial-gradient(circle at top right, rgba(255,255,255,.18), transparent 24%), radial-gradient(circle at bottom left, rgba(45,212,191,.18), transparent 28%); pointer-events:none; }
+.rt-stat-card{ position:relative; overflow:hidden; }
+.rt-stat-card::after{ content:''; position:absolute; inset:auto -40px -40px auto; width:120px; height:120px; border-radius:999px; background:rgba(255,255,255,.18); }
+.public-accent-card{ background:rgba(255,255,255,.96); color:#0f172a; border-radius:1.5rem; padding:1.25rem; box-shadow:0 14px 30px rgba(15,23,42,.08); }
+.public-accent-card .title{ font-weight:700; font-size:1.125rem; margin-bottom:.5rem; }
+.public-info-grid{ display:grid; gap:1rem; }
+@media (min-width:768px){ .public-info-grid{ grid-template-columns:repeat(2,minmax(0,1fr)); } }
+.card-parcelamento .info-card-body p {
+  margin: 0 0 8px;
+  line-height: 1.5;
+}
+
+.parcelamento-status {
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 1.5;
+  border: 1px solid transparent;
+}
+
+.parcelamento-status.status-ativo {
+  background: rgba(15, 118, 110, 0.10);
+  color: #0f766e;
+  border-color: rgba(15, 118, 110, 0.18);
+}
+
+.parcelamento-status.status-previo {
+  background: rgba(3, 105, 161, 0.10);
+  color: #0369a1;
+  border-color: rgba(3, 105, 161, 0.18);
+}
+
+.parcelamento-status.status-encerrado {
+  background: rgba(185, 28, 28, 0.10);
+  color: #b91c1c;
+  border-color: rgba(185, 28, 28, 0.18);
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+  width: auto;
+  height: auto;
+}

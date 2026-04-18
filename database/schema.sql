@@ -1,0 +1,197 @@
+CREATE TABLE IF NOT EXISTS admins (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(120) NOT NULL,
+  email VARCHAR(190) NOT NULL UNIQUE,
+  password_hash VARCHAR(255) NOT NULL,
+  role VARCHAR(50) NOT NULL DEFAULT 'admin',
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS settings (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  setting_key VARCHAR(120) NOT NULL UNIQUE,
+  setting_value TEXT NULL,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS groups (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  access_code VARCHAR(30) NOT NULL UNIQUE,
+  registration_type VARCHAR(20) NOT NULL DEFAULT 'individual',
+  responsible_name VARCHAR(190) NOT NULL,
+  responsible_age INT NULL,
+  responsible_phone VARCHAR(30) NULL,
+  responsible_email VARCHAR(190) NULL,
+  city VARCHAR(120) NULL,
+  payment_method VARCHAR(40) NOT NULL DEFAULT 'nao_definido',
+  installments INT NOT NULL DEFAULT 1,
+  receipt_file VARCHAR(255) NULL,
+  notes TEXT NULL,
+  status VARCHAR(30) NOT NULL DEFAULT 'intencao',
+  total_people INT NOT NULL DEFAULT 1,
+  suggested_value DECIMAL(10,2) NOT NULL DEFAULT 0,
+  discount_value DECIMAL(10,2) NOT NULL DEFAULT 0,
+  amount_paid DECIMAL(10,2) NOT NULL DEFAULT 0,
+  amount_pending DECIMAL(10,2) NOT NULL DEFAULT 0,
+  financial_status VARCHAR(30) NOT NULL DEFAULT 'pendente',
+  group_accommodation VARCHAR(30) NOT NULL DEFAULT 'personalizado',
+  has_child TINYINT(1) NOT NULL DEFAULT 0,
+  has_elderly TINYINT(1) NOT NULL DEFAULT 0,
+  source VARCHAR(30) NOT NULL DEFAULT 'site',
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS participants (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  group_id INT NOT NULL,
+  full_name VARCHAR(190) NOT NULL,
+  sex VARCHAR(20) NULL,
+  age INT NULL,
+  age_band VARCHAR(60) NULL,
+  accommodation_choice VARCHAR(30) NOT NULL DEFAULT 'alojamento',
+  sleeps_on_site TINYINT(1) NOT NULL DEFAULT 1,
+  calculated_value DECIMAL(10,2) NOT NULL DEFAULT 0,
+  is_responsible TINYINT(1) NOT NULL DEFAULT 0,
+  checkin_status VARCHAR(20) NOT NULL DEFAULT 'nao',
+  presence_status VARCHAR(20) NOT NULL DEFAULT 'nao',
+  dietary_notes TEXT NULL,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  CONSTRAINT fk_participants_group FOREIGN KEY (group_id) REFERENCES groups(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS payments (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  group_id INT NOT NULL,
+  amount_paid DECIMAL(10,2) NOT NULL DEFAULT 0,
+  payment_method VARCHAR(40) NOT NULL DEFAULT 'pix',
+  installment_number INT NOT NULL DEFAULT 1,
+  payment_date DATE NULL,
+  receipt_file VARCHAR(255) NULL,
+  notes TEXT NULL,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  CONSTRAINT fk_payments_group FOREIGN KEY (group_id) REFERENCES groups(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS activity_logs (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  admin_id INT NULL,
+  action VARCHAR(120) NOT NULL,
+  details TEXT NULL,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+CREATE TABLE IF NOT EXISTS password_resets (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  admin_id INT NOT NULL,
+  email VARCHAR(190) NOT NULL,
+  token_hash VARCHAR(255) NOT NULL,
+  expires_at DATETIME NOT NULL,
+  used_at DATETIME NULL,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  INDEX idx_password_resets_email (email),
+  CONSTRAINT fk_password_resets_admin FOREIGN KEY (admin_id) REFERENCES admins(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+CREATE TABLE IF NOT EXISTS report_history (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  report_type VARCHAR(40) NOT NULL DEFAULT 'executive_html',
+  sort_by VARCHAR(40) NOT NULL DEFAULT 'access_code',
+  sort_dir VARCHAR(4) NOT NULL DEFAULT 'asc',
+  output_format VARCHAR(20) NOT NULL DEFAULT 'html',
+  file_path VARCHAR(255) NULL,
+  recipient_email VARCHAR(190) NULL,
+  status VARCHAR(30) NOT NULL DEFAULT 'gerado',
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+
+CREATE TABLE IF NOT EXISTS food_categories (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(120) NOT NULL,
+  slug VARCHAR(140) NULL,
+  sort_order INT NOT NULL DEFAULT 0,
+  is_active TINYINT(1) NOT NULL DEFAULT 1,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  UNIQUE KEY uq_food_categories_name (name)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS food_meals (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  retreat_day TINYINT NOT NULL,
+  meal_type VARCHAR(30) NOT NULL,
+  title VARCHAR(190) NOT NULL,
+  meal_date DATE NULL,
+  meal_time VARCHAR(20) NULL,
+  estimated_people INT NOT NULL DEFAULT 0,
+  responsible_name VARCHAR(190) NULL,
+  status VARCHAR(30) NOT NULL DEFAULT 'planejado',
+  notes TEXT NULL,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  UNIQUE KEY uq_food_meals_day_type (retreat_day, meal_type)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS food_menu_items (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  meal_id INT NOT NULL,
+  item_name VARCHAR(190) NOT NULL,
+  quantity_estimate DECIMAL(10,2) NULL,
+  unit VARCHAR(30) NULL,
+  notes TEXT NULL,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  CONSTRAINT fk_food_menu_items_meal FOREIGN KEY (meal_id) REFERENCES food_meals(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS food_pantry_items (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  item_name VARCHAR(190) NOT NULL,
+  category VARCHAR(80) NULL,
+  category_id INT NULL,
+  unit VARCHAR(30) NULL,
+  quantity_current DECIMAL(10,2) NOT NULL DEFAULT 0,
+  minimum_stock DECIMAL(10,2) NOT NULL DEFAULT 0,
+  expiration_date DATE NULL,
+  storage_place VARCHAR(120) NULL,
+  notes TEXT NULL,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS food_purchase_items (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  pantry_item_id INT NULL,
+  item_name VARCHAR(190) NOT NULL,
+  category VARCHAR(80) NULL,
+  category_id INT NULL,
+  quantity_needed DECIMAL(10,2) NOT NULL DEFAULT 0,
+  unit VARCHAR(30) NULL,
+  priority_level VARCHAR(20) NOT NULL DEFAULT 'media',
+  estimated_cost DECIMAL(10,2) NOT NULL DEFAULT 0,
+  status VARCHAR(30) NOT NULL DEFAULT 'pendente',
+  notes TEXT NULL,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  CONSTRAINT fk_food_purchase_pantry FOREIGN KEY (pantry_item_id) REFERENCES food_pantry_items(id) ON DELETE SET NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+CREATE TABLE IF NOT EXISTS food_menu_item_ingredients (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  menu_item_id INT NOT NULL,
+  pantry_item_id INT NOT NULL,
+  quantity_base DECIMAL(10,3) NOT NULL DEFAULT 0,
+  unit VARCHAR(30) NULL,
+  consumption_mode VARCHAR(20) NOT NULL DEFAULT 'fixed',
+  notes TEXT NULL,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  CONSTRAINT fk_food_ing_menu FOREIGN KEY (menu_item_id) REFERENCES food_menu_items(id) ON DELETE CASCADE,
+  CONSTRAINT fk_food_ing_pantry FOREIGN KEY (pantry_item_id) REFERENCES food_pantry_items(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

@@ -1,0 +1,245 @@
+[2026-04-15 09:38:19] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:38:19] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:38:21] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:38:24] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:38:27] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:38:27] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:38:34] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:38:36] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:38:39] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:38:43] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:38:45] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:39:12] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:39:15] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:39:29] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:39:30] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:39:35] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:39:47] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:39:49] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:39:52] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:39:52] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:40:04] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:40:06] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:40:14] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:40:14] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:40:51] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:40:51] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:40:56] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:40:59] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:41:21] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:41:27] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:41:27] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:41:48] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:41:54] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:41:56] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:45:41] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:48:09] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:59:35] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:59:37] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:59:43] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:59:46] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 09:59:49] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 10:00:21] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 10:00:24] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 10:00:29] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 10:00:34] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 10:00:38] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 10:00:40] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-15 10:00:58] MigrationRunner: SQLSTATE[42000]: Syntax error or access violation: 1072 Key column 'task_slot_id' doesn't exist in table
+[2026-04-16 10:36:46] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:36:46] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:36:49] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:36:49] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:36:53] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:39:48] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:39:48] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:39:52] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:39:52] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:40:13] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:40:17] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:40:35] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:40:35] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:42:23] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:42:25] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:42:29] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:42:53] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:42:53] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:42:53] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:42:57] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:43:14] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:43:17] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:43:34] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:43:38] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:43:45] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:44:13] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:44:15] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:44:17] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:44:22] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:44:22] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:44:24] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:56:40] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:56:40] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:56:43] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:56:43] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 10:57:01] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 12:38:56] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 12:38:56] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 12:39:03] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 12:39:04] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 12:39:19] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 12:40:47] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 12:40:47] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 12:43:13] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 12:49:32] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 12:49:56] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 12:49:56] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 12:50:34] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 12:50:47] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 12:50:59] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 12:51:21] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 12:51:31] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 12:54:04] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 12:54:06] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 12:54:07] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 12:54:11] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 12:54:11] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 12:54:15] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 12:54:47] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 12:54:47] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 13:00:31] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 13:00:34] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:27:45] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:27:45] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:28:13] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:28:14] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:28:29] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:28:29] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:28:34] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:29:39] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:29:39] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:29:53] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:29:53] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:30:13] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:30:43] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:30:50] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:30:50] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:32:59] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:35:06] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:35:06] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:35:09] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:35:10] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:35:14] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:35:19] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:35:26] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:35:26] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:36:00] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:36:13] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:36:13] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:36:33] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:36:58] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:36:58] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:37:57] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:38:01] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:38:29] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:38:30] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:42:53] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:42:56] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:45:35] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:46:44] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:48:13] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:48:16] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:48:40] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:48:40] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:53:48] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:53:54] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:53:57] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:53:59] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:54:33] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:54:34] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:54:52] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:54:52] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:59:34] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:59:34] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:59:42] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 14:59:44] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 15:00:01] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 15:00:01] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 15:00:34] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 15:00:34] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 15:00:38] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 15:00:40] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 15:00:55] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 15:00:55] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 15:02:04] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 15:02:27] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 15:02:45] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 15:02:56] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 15:03:03] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 15:03:05] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 15:03:20] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 15:03:20] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 15:03:22] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 15:03:35] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 15:03:42] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 15:03:49] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 15:04:05] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 15:04:08] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 15:04:10] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 15:04:11] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 15:04:21] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 15:04:47] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 15:05:35] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 18:38:11] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 18:38:12] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 18:38:13] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 18:38:13] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 19:19:00] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 19:19:05] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 19:19:08] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 19:19:20] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 19:19:20] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 19:19:25] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 19:19:32] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 19:19:35] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 19:19:43] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 19:31:17] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 19:31:25] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 19:31:27] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 19:31:32] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 19:31:37] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 19:31:40] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 19:31:42] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 19:31:47] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 19:31:52] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 19:31:55] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 20:13:58] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 20:14:13] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 20:14:19] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 20:14:31] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 20:25:29] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 20:25:31] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 20:25:33] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 20:25:36] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 20:25:38] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 20:25:44] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 20:25:51] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 20:25:53] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 20:25:56] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 20:25:58] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-16 20:26:00] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-17 00:50:55] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-17 00:50:56] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-17 00:50:56] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-17 00:50:57] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-17 01:01:45] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-17 01:04:19] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-17 01:04:22] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-17 06:55:00] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-17 08:31:27] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-17 08:31:47] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-17 10:43:52] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-17 10:44:23] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-17 11:26:51] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-17 11:26:51] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-17 11:26:55] MigrationRunner: Unclosed '[' on line 2 does not match '}'
+[2026-04-17 11:26:55] MigrationRunner: Unclosed '[' on line 2 does not match '}'
